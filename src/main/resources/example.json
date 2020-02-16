@@ -1,0 +1,13 @@
+{
+  "String": "this is a string",
+  "Number": 12345,
+  "Boolean": true,
+  "Null": null,
+  "Object": {
+    "first_child": "example1",
+    "second_child": {
+      "level": "example2"
+    }
+  },
+  "Array": ["first", 6789, true]
+}
