@@ -23,21 +23,27 @@ public class ApiClientExample {
         Map<String, String> headers = new HashMap<>();
         headers.put("content-type", ContentType.APPLICATION_JSON.toString());
 
+        // List all /products/
         HttpResponse response = get("products");
         printResponse(response);
 
+        // List only the entry from /shoppers/ with id 3
         response = get("shoppers/3");
         printResponse(response);
 
+        // Filter shoppers, by phone
         response = get("shoppers?phone=0788667788");
         printResponse(response);
 
+        // Create a new entry in products
         response = post("products", headers, "{ \"name\" : \"American Cookies\" }");
         printResponse(response);
 
+        // Update an existing entry in products
         response = put("products/1", headers, "{ \"id\": 1, \"name\": \"Clatite umplute\" }");
         printResponse(response);
 
+        // Delete product with id 1
         response = delete("products/1");
         printResponse(response);
 
