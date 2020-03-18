@@ -1,0 +1,14 @@
+{
+  "products": [
+    { "id": 1, "name": "Clatite", "description": "clatite delicioase umplute cu finetti, biscuiti si banane" },
+    { "id": 2, "name": "Gogosi", "description": "gogosi umplute cu dulceata"  },
+    { "id": 3, "name": "Fursecuri", "description": "fursecuri cu glazura de ciocolata"  }
+  ],
+  "shoppers": [
+    { "id": 1, "name": "Newman Client", "email": "test_user@mailinator.com", "phone": "0788667788" },
+    { "id": 2, "name": "John Userescu", "email": "real_user@gmail.com", "phone": "0799009900"  },
+    { "id": 3, "name": "Ion Client-Fidel", "email": "default_user@yahoo.com", "phone": "0766991122"  }
+  ]
+}
+
+
