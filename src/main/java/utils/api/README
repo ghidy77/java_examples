@@ -1,0 +1,62 @@
+The performed requests are placed on: https://my-json-server.typicode.com/ghidy77/java_examples/
+
+---===== OUTPUT is: =====---
+
+Status code is: 200
+Request message is: OK
+Response Body: 
+ [
+  {
+    "id": 1,
+    "name": "Clatite",
+    "description": "clatite delicioase umplute cu finetti, biscuiti si banane"
+  },
+  {
+    "id": 2,
+    "name": "Gogosi",
+    "description": "gogosi umplute cu dulceata"
+  },
+  {
+    "id": 3,
+    "name": "Fursecuri",
+    "description": "fursecuri cu glazura de ciocolata"
+  }
+]
+Status code is: 200
+Request message is: OK
+Response Body: 
+ {
+  "id": 3,
+  "name": "Ion Client-Fidel",
+  "email": "default_user@yahoo.com",
+  "phone": "0766991122"
+}
+Status code is: 200
+Request message is: OK
+Response Body: 
+ [
+  {
+    "id": 1,
+    "name": "Newman Client",
+    "email": "test_user@mailinator.com",
+    "phone": "0788667788"
+  }
+]
+Status code is: 201
+Request message is: Created
+Response Body: 
+ {
+  "name": "American Cookies",
+  "id": 4
+}
+Status code is: 200
+Request message is: OK
+Response Body: 
+ {
+  "id": 1,
+  "name": "Clatite umplute"
+}
+Status code is: 200
+Request message is: OK
+Response Body: 
+ {}
